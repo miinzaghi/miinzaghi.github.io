@@ -1,0 +1,41 @@
+$(document).ready(function(){
+                $("#contents1").click(function(){
+                    $("#popup1").fadeIn();
+                });
+                $("#popup1").click(function(){
+                    $("#popup1").fadeOut();
+                });
+});
+$(document).ready(function(){
+                $("#contents2").click(function(){
+                    $("#popup2").fadeIn();
+                });
+                $("#popup2").click(function(){
+                    $("#popup2").fadeOut();
+                });
+});
+$(document).ready(function(){
+                $("#contents3").click(function(){
+                    $("#popup3").fadeIn();
+                });
+                $("#popup3").click(function(){
+                    $("#popup3").fadeOut();
+                });
+});
+$(document).ready(function(){
+                $("#contents4").click(function(){
+                    $("#popup4").fadeIn();
+                });
+                $("#popup4").click(function(){
+                    $("#popup4").fadeOut();
+                });
+});
+
+$(document).ready(function(){
+                $("#contents5").click(function(){
+                    $("#popup5").fadeIn();
+                });
+                $("#popup5").click(function(){
+                    $("#popup5").fadeOut();
+                });
+});
