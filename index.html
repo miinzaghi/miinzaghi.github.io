@@ -1,6 +1,156 @@
-<h1> 18101415 조정민 웹페이지 제출 </h1>
-<a href = "project/index.html">웹페이지로 이동</a><br>
-<a href = "practice/">연습</a><br>
-<h1>예제</h1>
-<a href = "ch8/">8장 달력</a><br>
-<a href="ch9/">3D 페이지</a><br>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/specimen/Montserrat#standard-styles">
+
+    <style>
+        .bg-1 {
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #1b0158;
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: black;
+            color: white;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12;
+            letter-spacing: 5px;
+        }
+
+        body {
+            font: 20px "Montserrat", sans-serif;
+            line-height: 1.8;
+            color: white;
+
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">WHO</a></li>
+                    <li><a href="#">WHAT</a></li>
+                    <li><a href="#">WHERE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+        <h3>Who Am I?</h3>
+        <img src="bird.jpg" alt="Bird" width="500" height="300" class="img-circle">
+        <h3>I'm an adventurer!</h3>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+        <h3>What Am I</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus justo, efficitur dignissim condimentum
+            non, dignissim ut diam. Mauris sed nunc mollis, tristique dui at, semper neque. Aliquam euismod dui id
+            mattis mollis. Duis quis ipsum laoreet, blandit leo sit amet, ultrices massa. Aenean pulvinar molestie
+            lacus, id tincidunt tellus vulputate et. Aenean lobortis tortor turpis, at eleifend neque aliquet efficitur.
+            Integer sodales turpis sollicitudin lectus dignissim, hendrerit faucibus sem interdum.
+        </p>
+        <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+        <h3>Where To Find Me?</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue diam, luctus eu ligula at,
+                    vulputate sodales dolor. Nam felis tortor, pulvinar dapibus turpis vel, tempor congue justo.
+                    Pellentesque a nunc ut lacus congue pretium eget sit amet risus. Praesent quis hendrerit turpis.
+                    Praesent id libero malesuada, facilisis justo eu, blandit dui. Maecenas consequat elit velit, eu
+                    cursus purus commodo iaculis. Aenean iaculis, quam id iaculis consequat, urna eros auctor est, eu
+                    mollis tellus risus sed nisi. Ut eget tortor non mauris varius egestas eu nec magna. Nullam
+                    ultrices, elit vel vehicula commodo, ante felis iaculis dolor, at maximus urna magna laoreet turpis.
+                    Proin convallis neque in dui condimentum, id tempor tortor mollis. Vestibulum vel mauris sed quam
+                    laoreet gravida vitae quis nibh. Donec viverra purus sit amet tincidunt lobortis. Praesent porttitor
+                    lacus non posuere venenatis. Donec sodales leo quis arcu gravida mattis. Aliquam posuere velit elit,
+                    quis euismod dolor consequat eu.</p><img src="bird1.jpg" alt="Bird" class="img-responsive"
+                    style="width:100%">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue diam, luctus eu ligula at,
+                    vulputate sodales dolor. Nam felis tortor, pulvinar dapibus turpis vel, tempor congue justo.
+                    Pellentesque a nunc ut lacus congue pretium eget sit amet risus. Praesent quis hendrerit turpis.
+                    Praesent id libero malesuada, facilisis justo eu, blandit dui. Maecenas consequat elit velit, eu
+                    cursus purus commodo iaculis. Aenean iaculis, quam id iaculis consequat, urna eros auctor est, eu
+                    mollis tellus risus sed nisi. Ut eget tortor non mauris varius egestas eu nec magna. Nullam
+                    ultrices, elit vel vehicula commodo, ante felis iaculis dolor, at maximus urna magna laoreet turpis.
+                    Proin convallis neque in dui condimentum, id tempor tortor mollis. Vestibulum vel mauris sed quam
+                    laoreet gravida vitae quis nibh. Donec viverra purus sit amet tincidunt lobortis. Praesent porttitor
+                    lacus non posuere venenatis. Donec sodales leo quis arcu gravida mattis. Aliquam posuere velit elit,
+                    quis euismod dolor consequat eu.</p><img src="bird2.jpg" alt="Bird" class="img-responsive"
+                    style="width:100%">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue diam, luctus eu ligula at,
+                    vulputate sodales dolor. Nam felis tortor, pulvinar dapibus turpis vel, tempor congue justo.
+                    Pellentesque a nunc ut lacus congue pretium eget sit amet risus. Praesent quis hendrerit turpis.
+                    Praesent id libero malesuada, facilisis justo eu, blandit dui. Maecenas consequat elit velit, eu
+                    cursus purus commodo iaculis. Aenean iaculis, quam id iaculis consequat, urna eros auctor est, eu
+                    mollis tellus risus sed nisi. Ut eget tortor non mauris varius egestas eu nec magna. Nullam
+                    ultrices, elit vel vehicula commodo, ante felis iaculis dolor, at maximus urna magna laoreet turpis.
+                    Proin convallis neque in dui condimentum, id tempor tortor mollis. Vestibulum vel mauris sed quam
+                    laoreet gravida vitae quis nibh. Donec viverra purus sit amet tincidunt lobortis. Praesent porttitor
+                    lacus non posuere venenatis. Donec sodales leo quis arcu gravida mattis. Aliquam posuere velit elit,
+                    quis euismod dolor consequat eu.</p><img src="bird3.jpg" alt="Bird" class="img-responsive"
+                    style="width:100%">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>This page is made by Jeongmin Jo! <a href="https://www.seoultech.ac.kr/index.jsp">서울과학기술대학교</a></p>
+    </footer>
+</body>
+
+</html>
